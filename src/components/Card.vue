@@ -24,7 +24,7 @@
 <template>
     <div
         class=" relative m-10 bg-white border-slate-100 rounded-3xl p-8 cursor-pointer hover:-translate-y-2 hover:shadow-xl transition">
-        <img @click="onClickFavorite" :src="isFavorite ? '/like-2.svg' : '/like-1.svg'" alt="Like"
+        <img @click="onClickFavorite" :src="isFavorite ? '/Sneakers/like-2.svg' : '/Sneakers/like-1.svg'" alt="Like"
             class=" absolute top-8 left-8">
         <img :src="imageUrl" alt="Sneakers">
         <p class="mt-2">{{ title }}</p>
